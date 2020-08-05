@@ -11,14 +11,14 @@ with open("README.md", "r") as file:
     LONG_DESCRIPTION = file.read()
 setuptools.setup(
     name="lambdata-eduardopadilla3",
-    version="0.0.1",
+    version="0.0.2",
     author="eduardopadilla3",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
     url="https://github.com/eduardopadilla3/lambdata-EduardoPadilla",
     packages=setuptools.find_packages(),
-    python_requires=">=3.8",
+    python_requires=">=3.6",
     install_requires=REQUIRED,
     classifiers=[
         "Programming Language :: Python :: 3",
