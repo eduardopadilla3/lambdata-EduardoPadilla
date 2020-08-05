@@ -7,7 +7,6 @@ import pandas as pd
 import numpy as np
 
 
-
 def display_settings(df):
     print('Size of dataframe is:', df.shape)
     y = int(input("Enter rows: "))
