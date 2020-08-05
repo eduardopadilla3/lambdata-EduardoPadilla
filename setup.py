@@ -4,8 +4,7 @@ lambdata - a collection of Data Science helper functions
 import setuptools
 REQUIRED = [
     "numpy",
-    "pandas",
-    "train_test_split"
+    "pandas"
 ]
 with open("README.md", "r") as file:
     LONG_DESCRIPTION = file.read()
