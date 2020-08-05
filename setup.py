@@ -10,7 +10,7 @@ with open("README.md", "r") as file:
     LONG_DESCRIPTION = file.read()
 setuptools.setup(
     name="lambdata-eduardopadilla3",
-    version="0.0.2",
+    version="0.0.7",
     author="eduardopadilla3",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
