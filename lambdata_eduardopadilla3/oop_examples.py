@@ -6,7 +6,6 @@ class MyDataFrame(pd.DataFrame):
         return self.shape[0] * self.shape[1]
 
 
-
 class Complex:
     def __init__(self, realpart, imagpart):
         self.r = realpart
@@ -55,12 +54,6 @@ class Tiger(Animal):
     def say_great(self):
         return "It's GREEEAAAAAAAT!"
 
-    #Example of overriding
+    # Example of overriding
     def run(self):
         return 'Scamperwoosh!'
-
-    
-
-    
-        
-    
